@@ -4,6 +4,8 @@ sudo pacman -S base-devel xorg lightdm lightdm-gtk-greeter flameshot alacritty r
 sudo systemctl enable lightdm
 
 #add dotfiles from github
+mkdir ~/.config
+mkdir ~/.dwm
 git clone https://github.com/VeryGoodNaeme/Dotfiles
 cd Dotfiles
 cp -r dotconfig ~/.config
