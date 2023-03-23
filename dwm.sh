@@ -1,10 +1,11 @@
 #!/bin/sh
 #install dependencies
 sudo pacman -S base-devel xorg lightdm lightdm-gtk-greeter flameshot alacritty ranger fish rofi pipewire-audio pipewire-pulse wireplumber
+sudo systemctl enable lightdm
 
 #add dotfiles from github
 git clone https://github.com/VeryGoodNaeme/Dotfiles
-cd dotfiles
+cd Dotfiles
 cp -r dotconfig ~/.config
 cp -r dotdwm ~/.dwm
 sudo cp dwm.desktop /usr/share/xsessions/dwm.desktop
