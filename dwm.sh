@@ -6,8 +6,10 @@ sudo systemctl enable lightdm
 #add dotfiles from github
 git clone https://github.com/VeryGoodNaeme/Dotfiles
 cd Dotfiles
-cp -a ./dotconfig ~/.config
-cp -a ./dotdwm ~/.dwm
+mkdir ~/.dwm
+mkdir ~/.config
+cp -r ./dotconfig ~/.config
+cp -r ./dotdwm ~/.dwm
 chmod +x ~/.dwm/autostart.sh
 sudo cp dwm.desktop /usr/share/xsessions/dwm.desktop
 cd ..
