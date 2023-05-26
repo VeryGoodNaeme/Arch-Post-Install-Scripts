@@ -16,5 +16,5 @@ cd ..
 
 #install dwm
 git clone https://github.com/VeryGoodNaeme/dwm-naeme
-cd dwm-naeme/gaps
+cd dwm-naeme/generic/gaps
 sudo make install
