@@ -8,7 +8,7 @@ git clone https://github.com/VeryGoodNaeme/Dotfiles
 cd Dotfiles
 mkdir ~/.dwm
 mkdir ~/.config
-cp -r ./dotconfig ~/.config
+cp -r ./dotconfig/generic ~/.config
 cp -r ./dotdwm ~/.dwm
 chmod +x ~/.dwm/autostart.sh
 sudo cp dwm.desktop /usr/share/xsessions/dwm.desktop
