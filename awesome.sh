@@ -9,5 +9,5 @@ git clone https://github.com/VeryGoodNaeme/Dotfiles
 #copy dotfiles to the config directory
 cd Dotfiles
 mkdir ~/.config
-cp -r ./dotconfig ~/.config
+cp -r ./dotconfig/generic ~/.config
 
